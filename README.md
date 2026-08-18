@@ -35,22 +35,22 @@ Controlled SSH brute-force activity is then generated in the lab to validate tha
 
 ┌──────────────────────────┐
 │      Kali Linux Clone    │
-│      192.168.1.98        │
-│                           │
-│  /var/log/auth.log        │
-│  /var/log/syslog          │
-└────────────┬──────────────┘
+│      192.168.x.xx       │
+│                          │
+│  /var/log/auth.log       │
+│  /var/log/syslog         │
+└────────────┬─────────────┘
              │
              │ Splunk Universal Forwarder
              │ TCP/9997
              ▼
 ┌──────────────────────────┐
-│      Windows Host         │
-│      192.168.1.3          │
-│                           │
-│        Splunk SIEM        │
-│      TCP Receiver 9997    │
-└────────────┬──────────────┘
+│      Windows Host        │
+│      192.168.x.x         │
+│                          │
+│        Splunk SIEM       │
+│      TCP Receiver 9997   │
+└────────────┬─────────────┘
              │
              ▼
        ┌──────────────┐
