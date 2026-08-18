@@ -35,7 +35,7 @@ Controlled SSH brute-force activity is then generated in the lab to validate tha
 
 ┌──────────────────────────┐
 │      Kali Linux Clone    │
-│      192.168.x.xx       │
+│      192.168.x.xx        │
 │                          │
 │  /var/log/auth.log       │
 │  /var/log/syslog         │
